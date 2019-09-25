@@ -36,7 +36,7 @@
  Evaluation Metric
  Submissions are evaluated on F1-Score between the predicted class and the observed target.
 
- #### Approach
+ ### Approach
  At first, I conducted exploratory data analysis of the dataset, after oversampling, to gain a deeper understanding of the data. Next, I did feature scaling using StandardScaler.Then I tried some scikit-learn  classifiers out of which XGBoost classifier gave the better f1 score and has been selected as the final model. For some of the classifiers, I used RandomizedSearchCV to select best parameters.
 
- #### F1 Score: 0.35232
+ ### F1 Score: 0.35232
