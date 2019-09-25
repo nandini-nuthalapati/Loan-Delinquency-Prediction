@@ -27,13 +27,14 @@
  * insurance_type 0 - Premium paid by borrower, 1 - Premium paid by Lender
  * m1 to m12 Month-wise loan performance (deliquency in months)
  * m13 target, loan deliquency status (0 = non deliquent, 1 = deliquent)
+
  test.zip
  test.zip contains test.csv which has details of all loans for which the participants are to submit the delinquency status - 0/1 (not probability)
 
  sample_submission.zip
  sample_submission.zip contains the submission format for the predictions against the test set. A single csv needs to be submitted as a solution.
 
- Evaluation Metric
+ ### Evaluation Metric
  Submissions are evaluated on F1-Score between the predicted class and the observed target.
 
  ### Approach
